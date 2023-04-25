@@ -14,9 +14,3 @@ def student(request):
             return HttpResponse('data is not Valid')
     return render(request,'student.html',d)
 
-
-
-
-
-
-
